@@ -1,0 +1,109 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2rem;
+}
+
+.big-box{
+    height: 100vmin;
+    color: #ededec;
+    background-color: #101011;
+}
+
+.big-box .nav-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav-box .logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6rem;
+    background-color: #1d1d1c;
+    padding-block: 1rem;
+}
+
+.logobox .address-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.address-box .sony-centre-box h4{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.address-box .divider{
+    width: 1px;
+    height: 1.7rem;
+    background-color:#ededec;
+}
+
+.address-box .hyderabad-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 37%;
+}
+
+.hyderabad-box .location-icon-box {
+    
+}
+
+.location-icon-box img{
+    width: 20px ;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.hyderabad-box .addres-text-box h5{
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+
+.hyderabad-box .addres-text-box h4{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.logobox .icon-box{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logobox .icon-box img{
+    width: 20px ;
+    height: 20px;
+}
+
+.logobox .icon-box img:not(:last-child){
+    filter: invert(100%);
+}
+
+.nav-box .nav-items-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 3.5rem;
+    padding-block: 1rem;
+}
+
+.nav-text{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
