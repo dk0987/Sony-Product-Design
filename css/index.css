@@ -262,7 +262,7 @@
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 1px;
-    height: 2.25rem;
+    height: 2rem;
 }
 
 .selected-button {
@@ -273,7 +273,7 @@
 
 .product-detail .product-description {
     background-color: #292929;
-    height: 17rem;
+    height: 15rem;
     overflow-y: scroll;
     padding-inline: 1.75rem;
     padding-block: 1.35rem;
